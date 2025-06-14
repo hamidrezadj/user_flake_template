@@ -5,15 +5,8 @@
     { self }:
     let
       user = {
-        # Host name will be your system's identity, you should remember it.
-        hostName = "bridge_names_for_example";
-        # nixosVersion should be "stable" or "unstable" or any other string.
-        # This should be configured alongside dotfiles flake.nix file,
-        # so it exists on the other side as well.
-        nixosVersion = "stable";
-        # Version of last clean install of Nixos.
-        stateVersion = "23.11";
-
+        # Host name will be your system's identity.
+        hostName = "choose_from_bridge_names_for_example";
         name = "Your Name";
         email = "your.email.address@server.com";
         userName = "system_username";
